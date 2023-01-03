@@ -14,7 +14,7 @@
 	<name>explorenj</name>
 	<description>Explore New Jersey Microservice</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

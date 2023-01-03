@@ -1,0 +1,17 @@
+Roy Fielding (One of the founding authors of REST API Spec and HTTP)
+
+- He says an API is not truly restful unless it follow a uniform interface
+-   One of the constraints of this is that HATEOAS (Hypermedia as the engine of Application State) is employed
+- Expose the API's documentation
+- Navigation between resources
+- Spring Data REST is Hypermedia driven natively
+- e.g.
+    - {
+        "_links": {
+            "self" : {
+                "href" : "http://localhost:8080/profile"
+                }
+    }
+
+- Above is an active link to the documentation the API exposes by the microservice
+- Spring Data REST employs the HAL (Hypermedia Application Language) standard
